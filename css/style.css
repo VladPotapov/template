@@ -6,6 +6,8 @@
 
 html, body {
     height: 100%;
+    font-family: serif;
+    font-size: 14px;
 }
 
 li {
@@ -18,4 +20,5 @@ a {
 
 .container {
     width: 960px;
+    margin: 0 auto;
 }
