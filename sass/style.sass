@@ -27,10 +27,22 @@ header
 .row
     +padding($top: 51px, $right: 0, $bottom: 28px, $left: 0)
 
+.bg
+    color: #fff
+    background: #000
+
+.active
+    color: red
+    background: #000
+
+.row
+    +padding($top: 100px, $right: 0, $bottom: 100px, $left: 0)
+
 .container
     justify-content: space-between
     width: $width__container
     margin: 0 auto
+    padding: 0 20px
 
 .d-flex
     display: flex
@@ -40,6 +52,15 @@ header
 
 .w-100
     width: 100%
+
+.w-80
+    width: 80%
+
+.w-70
+    width: 70%
+
+.w-60
+    width: 60%
 
 .w-50
     width: 50%
@@ -59,6 +80,7 @@ header
 .w-20
     width: 20%
 
+<<<<<<< HEAD
 .c-orange
     color: #ff7700
 
@@ -93,6 +115,10 @@ header
         font-size: 16px
         &::first-letter
             text-transform: uppercase
+=======
+.color_two
+    color: $color_two
+>>>>>>> 1ba214107ee6c06f837a61cdba0436941b2317af
 
 @media screen and ( max-width:  $width__container)
     .container
