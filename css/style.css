@@ -53,13 +53,6 @@ header {
   background: linear-gradient(0deg, #e1e1e1 0%, #fefefe 100%);
 }
 
-.row {
-  padding-top: 51px;
-  padding-right: 0;
-  padding-bottom: 28px;
-  padding-left: 0;
-}
-
 .bg {
   color: #fff;
   background: #000;
@@ -71,10 +64,13 @@ header {
 }
 
 .row {
-  padding-top: 100px;
-  padding-right: 0;
-  padding-bottom: 100px;
-  padding-left: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 28px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
 }
 
 .container {
@@ -90,6 +86,12 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.jc-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .d-grid {
@@ -200,6 +202,7 @@ header {
 }
 
 .search__title {
+  text-align: center;
   margin-top: 45px;
   font-family: "HelveticaCE";
   font-size: 28px;
@@ -248,9 +251,35 @@ header {
   margin-top: 25px;
   margin-left: 20px;
   padding: 14px 30px;
+  font-family: "HelveticaCE";
   color: white;
   background-color: #ff7700;
   border-radius: 5px;
+}
+
+.gallery__box {
+  width: 23%;
+  height: 281px;
+  border: 1px solid #cac6c6;
+}
+
+.gallery__slide {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.gallery__img {
+  width: 100%;
+}
+
+.gallery__date {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+  color: white;
 }
 
 .color_two {
