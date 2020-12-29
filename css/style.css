@@ -179,6 +179,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-left: 10px;
 }
 
 .button__link {
@@ -197,13 +198,13 @@ header {
 }
 
 .button__link-active .button__burger::before {
-  -webkit-transform: rotate(35deg);
-          transform: rotate(35deg);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 
 .button__link-active .button__burger::after {
-  -webkit-transform: rotate(-35deg);
-          transform: rotate(-35deg);
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 
 .button__burger {
@@ -220,8 +221,8 @@ header {
 .button__burger::before, .button__burger::after {
   content: '';
   display: block;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   position: absolute;
   top: 50%;
   left: 50%;
